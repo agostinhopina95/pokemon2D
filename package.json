@@ -1,0 +1,30 @@
+{
+  "name": "pokemon2d",
+  "version": "1.0.0",
+  "description": "O Ash está a apanhar pokémons num mundo que consiste numa grelha bidimensional infinita de casas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agostinhopina95/pokemon2D.git"
+  },
+  "keywords": [
+    "Pokémon",
+    "2D",
+    "Game",
+    "Grid"
+  ],
+  "author": "Agostinho Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agostinhopina95/pokemon2D/issues"
+  },
+  "homepage": "https://github.com/agostinhopina95/pokemon2D#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1"
+  }
+}
