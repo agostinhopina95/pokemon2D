@@ -4,7 +4,7 @@
   "description": "O Ash está a apanhar pokémons num mundo que consiste numa grelha bidimensional infinita de casas.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "Build": "gulp main"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,10 @@
   "homepage": "https://github.com/agostinhopina95/pokemon2D#readme",
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
     "jquery": "^3.5.1",
     "jquery-ui": "^1.12.1"
   }

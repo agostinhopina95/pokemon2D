@@ -1,0 +1,76 @@
+.dynamic-content {
+    margin: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.play-btn {
+    width: 45%;
+}
+
+.dynamic-content {
+    --tb-size-x: 40px;
+    --tb-size-y: 40px;
+}
+
+.score {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.score .wrapper {
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: var(--primary);
+    border-width: 1px;
+    font-size: 21px;
+    padding: 3px 5px;
+}
+
+.score .wrapper p {
+    color: var(--primary);
+}
+
+.dynamic-content td {
+    width: var(--tb-size-x);
+    min-width: var(--tb-size-x);
+    height: var(--tb-size-y);
+    min-height: var(--tb-size-y);
+    border: solid 1px rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #FFF;
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size: 18px;
+    font-weight: 800;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dynamic-content td[ball] {
+    background-image: url(../../assets/img/ball.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.dynamic-content td[ash] {
+    background-image: url(../../assets/img/ash.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.dynamic-content table {
+    margin: 0 auto;
+}

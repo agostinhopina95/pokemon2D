@@ -5,10 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémon Game 2D</title>
+    <link href="assets/css/compiled/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <main class="main">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/"> Pokemon: apanhá-los todos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="score">
+                <div class="wrapper">
+                    <p class="">Pokémons: <span>000</span></p>
+                </div>
+            </div>
+            <div class="dynamic-content"></div>
+            <hr>
+            <center>
+                <button type="button" class="btn btn-outline-primary play-btn">PLAY</button>
+            </center>
+        </div>
+        <script src="assets/js/compiled/jquery.js"></script>
+        <script src="assets/js/dynamic.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/auto.js"></script>
+    </main>
 </body>
 
 </html>
